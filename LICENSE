@@ -175,6 +175,252 @@
 
    END OF TERMS AND CONDITIONS
 
+   ============================================================================
+   ADDITIONAL TERMS FOR OPENHIMS - HEALTHCARE LIABILITY AND USAGE RESTRICTIONS
+   ============================================================================
+
+   The following additional terms apply to OpenHIMS and supplement the Apache
+   License Version 2.0 above:
+
+   10. Healthcare Liability Disclaimer.
+
+       IN ADDITION TO THE DISCLAIMERS IN SECTIONS 7 AND 8 ABOVE:
+
+       (a) HEALTHCARE USE DISCLAIMER. This software is provided for healthcare
+           interoperability purposes. The Licensor and Contributors make no
+           representations or warranties regarding the software's suitability,
+           accuracy, or reliability for clinical decision-making, patient care,
+           diagnosis, treatment, or any other healthcare purpose.
+
+       (b) PATIENT SAFETY. You acknowledge that the software may be used in
+           connection with Protected Health Information (PHI) and patient care
+           systems. You are solely responsible for:
+           - Ensuring patient safety in your deployment
+           - Validating all data and outputs before clinical use
+           - Maintaining appropriate safeguards for PHI
+           - Compliance with all applicable healthcare regulations
+
+       (c) NO MEDICAL ADVICE. This software does not provide medical advice,
+           diagnosis, or treatment. It is an integration and interoperability
+           tool only.
+
+       (d) REGULATORY COMPLIANCE. You are solely responsible for ensuring
+           your use of the Work complies with all applicable laws and
+           regulations, including but not limited to HIPAA, GDPR, FDA
+           regulations, and local healthcare privacy laws.
+
+       (e) MAXIMUM LIABILITY LIMITATION. To the maximum extent permitted by
+           applicable law, in no event shall any Contributor be liable for
+           any damages whatsoever, including but not limited to medical
+           malpractice, patient harm, data breaches, PHI disclosure, or any
+           other healthcare-related damages arising from use of this software.
+
+   11. Corporate and Enterprise Use Restrictions.
+
+       (a) DEFINITIONS.
+           - "Commercial Entity" means any for-profit corporation, limited
+             liability company, partnership, or other business entity with
+             annual revenues exceeding USD $10,000,000 or more than 100
+             employees, whichever threshold is reached first.
+           
+           - "Healthcare Enterprise" means any Commercial Entity operating
+             in the healthcare sector, including but not limited to hospitals,
+             health systems, large medical groups, health insurance companies,
+             pharmaceutical companies, medical device manufacturers, and
+             healthcare IT vendors with commercial products.
+
+       (b) COMMERCIAL ENTITY RESTRICTIONS.
+           Commercial Entities and Healthcare Enterprises may use the Work
+           for evaluation, development, and testing purposes only. Production
+           use by Commercial Entities requires:
+           
+           (i)   Execution of a separate Commercial License Agreement with
+                 the Licensor; OR
+           (ii)  Purchase of a Commercial Support Subscription as defined
+                 at https://openhims.org/commercial; OR
+           (iii) Written permission from the Licensor.
+
+       (c) PERMITTED USES WITHOUT COMMERCIAL LICENSE.
+           The following uses by Commercial Entities do NOT require a
+           commercial license:
+           
+           (i)   Internal evaluation and testing (non-production)
+           (ii)  Development and staging environments
+           (iii) Academic research purposes
+           (iv)  Open-source contributions to the OpenHIMS project
+           (v)   Providing professional services TO non-Commercial Entities
+
+       (d) SMALL BUSINESS AND NON-PROFIT EXEMPTION.
+           Organizations that do not meet the "Commercial Entity" definition
+           above may use the Work in production under the standard Apache 2.0
+           terms without additional licensing requirements. This includes:
+           
+           (i)   Small healthcare practices and clinics
+           (ii)  Non-profit healthcare organizations
+           (iii) Public health departments
+           (iv)  Academic and research institutions
+           (v)   Individual developers and consultants
+
+       (e) REVENUE-GENERATING USAGE.
+           If You incorporate the Work into a commercial product or service
+           that generates revenue (whether sold, licensed, or provided as
+           SaaS), You are considered a Commercial Entity regardless of
+           organization size and must obtain a commercial license.
+
+       (f) ENFORCEMENT.
+           Violation of these corporate use restrictions shall:
+           
+           (i)   Terminate all licenses granted under this License immediately
+           (ii)  Require cessation of all use of the Work
+           (iii) May result in legal action for breach of license terms
+           (iv)  Require payment of damages and/or reasonable commercial
+                 license fees retroactively
+
+       (g) COMMERCIAL LICENSE INQUIRIES.
+           For commercial licensing, contact: sales@openhims.org
+           For license compliance questions, contact: legal@openhims.org
+
+   12. Audit Rights.
+
+       If You are a Commercial Entity or Healthcare Enterprise using the Work,
+       You agree that the Licensor may, upon reasonable notice and during
+       normal business hours, audit Your use of the Work to verify compliance
+       with these license terms. You agree to reasonably cooperate with such
+       audits and provide necessary documentation.
+
+   13. Jurisdiction and Governing Law.
+
+       These additional terms shall be governed by and construed in accordance
+       with the laws of the jurisdiction where the Licensor is established,
+       without regard to conflict of law principles.
+
+   14. Severability.
+
+       If any provision of these additional terms is held to be unenforceable
+       or invalid, such provision shall be changed and interpreted to
+       accomplish the objectives of such provision to the greatest extent
+       possible under applicable law, and the remaining provisions shall
+       continue in full force and effect.
+
+   15. Contact and Questions.
+
+       For questions about this license:
+       - General: legal@openhims.org
+       - Commercial licensing: sales@openhims.org
+       - Compliance: compliance@openhims.org
+
+   16. Founder Service Request Program.
+
+       (a) ELIGIBILITY TO REQUEST FREE SERVICES.
+           Any organization or individual using the Work may submit a request
+           to the project founders for complimentary professional services,
+           support, or assistance, regardless of organization size, revenue,
+           or commercial status.
+
+       (b) TYPES OF SERVICES AVAILABLE.
+           Organizations may request:
+           
+           (i)    Implementation and deployment assistance
+           (ii)   Technical support and troubleshooting
+           (iii)  Custom development or integration work
+           (iv)   Training and knowledge transfer
+           (v)    Architecture and design consultation
+           (vi)   Compliance and security guidance
+           (vii)  Migration from legacy systems
+           (viii) Any other professional services related to OpenHIMS
+
+       (c) REQUEST PROCESS.
+           To request free services from founders:
+           
+           (i)   Submit request via email to: founders@openhims.org
+           (ii)  Include organization details and service description
+           (iii) Explain use case and community benefit
+           (iv)  Describe why funding is not available
+           (v)   Specify timeline and scope of assistance needed
+
+       (d) EVALUATION CRITERIA.
+           Founders will evaluate requests based on:
+           
+           (i)   Community and public health benefit
+           (ii)  Organization's mission alignment (non-profit, healthcare
+                 access, underserved populations, research, education)
+           (iii) Technical merit and learning opportunity
+           (iv)  Founder availability and capacity
+           (v)   Potential to advance the OpenHIMS ecosystem
+           (vi)  Financial constraints and genuine need
+
+       (e) RESPONSE AND COMMITMENT.
+           - All requests will receive a response within 14 business days
+           - Approved requests may receive:
+             * Full service delivery at no cost
+             * Partial service delivery with discounted commercial rate
+             * Referral to community resources or partners
+             * Technical documentation and self-service guidance
+           - Founders may negotiate scope, timeline, and deliverables
+           - No guarantee of service approval, but all requests considered
+
+       (f) PRIORITY CATEGORIES.
+           The following receive priority consideration:
+           
+           (i)   Non-profit healthcare organizations
+           (ii)  Public health departments and agencies
+           (iii) Academic medical centers and research institutions
+           (iv)  Community health centers serving underserved populations
+           (v)   Healthcare initiatives in developing countries
+           (vi)  Open-source healthcare projects
+           (vii) Organizations responding to public health emergencies
+           (viii)Small practices with <50 employees serving rural areas
+
+       (g) COMMERCIAL ENTITIES.
+           Commercial Entities and Healthcare Enterprises may also request
+           free services under exceptional circumstances, including:
+           
+           (i)   Pilot programs with significant public health impact
+           (ii)  Pro-bono work for charitable initiatives
+           (iii) Emergency response or disaster relief scenarios
+           (iv)  Collaboration on open-source contributions
+           (v)   Research partnerships with data sharing agreements
+
+       (h) TERMS OF FREE SERVICE DELIVERY.
+           When founders provide free services:
+           
+           (i)   Services provided "as-is" with no warranty
+           (ii)  Timeline and deliverables subject to founder availability
+           (iii) Organization agrees to provide feedback and testimonial
+           (iv)  Organization may be featured as case study (with approval)
+           (v)   Organization encouraged to contribute back to community
+           (vi)  Future paid engagement not required or expected
+
+       (i) TRANSPARENCY AND FAIRNESS.
+           - Aggregate statistics on requests and approvals published annually
+           - Decision criteria and process remain transparent
+           - Appeals can be submitted for denied requests
+           - No discrimination based on geography, size, or sector
+
+       (j) NO OBLIGATION.
+           This provision does NOT create:
+           
+           (i)   Legal obligation for founders to provide services
+           (ii)  Guarantee of approval for any request
+           (iii) Enforceable right to free services
+           (iv)  Liability for declined or delayed requests
+           
+           This is a voluntary program to support the community.
+
+       (k) CONTACT FOR SERVICE REQUESTS.
+           Submit service requests to: founders@openhims.org
+           
+           Include in your request:
+           - Organization name and mission
+           - Description of OpenHIMS use case
+           - Specific services needed
+           - Timeline and urgency
+           - Community benefit explanation
+           - Funding situation and constraints
+           - Any supporting documentation
+
+   ============================================================================
+
    APPENDIX: How to apply the Apache License to your work.
 
       To apply the Apache License to your work, attach the following
@@ -186,9 +432,10 @@
       same "printed page" as the copyright notice for easier
       identification within third-party archives.
 
-   Copyright [yyyy] [name of copyright owner]
+   Copyright 2025 OpenHIMS Project Contributors
 
-   Licensed under the Apache License, Version 2.0 (the "License");
+   Licensed under the Apache License, Version 2.0 (the "License")
+   with Healthcare Liability and Corporate Use Restrictions;
    you may not use this file except in compliance with the License.
    You may obtain a copy of the License at
 
@@ -198,4 +445,5 @@
    distributed under the License is distributed on an "AS IS" BASIS,
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
-   limitations under the License.
+   limitations under the License, including the additional terms for
+   healthcare liability and corporate use restrictions set forth above.
