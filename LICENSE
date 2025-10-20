@@ -215,72 +215,180 @@
            malpractice, patient harm, data breaches, PHI disclosure, or any
            other healthcare-related damages arising from use of this software.
 
-   11. Corporate and Enterprise Use Restrictions.
+   11. Healthcare and Anti-Commercialization Provisions.
 
-       (a) DEFINITIONS.
-           - "Commercial Entity" means any for-profit corporation, limited
-             liability company, partnership, or other business entity with
-             annual revenues exceeding USD $10,000,000 or more than 100
-             employees, whichever threshold is reached first.
+       (a) HEALTHCARE PROVIDER EXEMPTION (FREE USE).
+           Healthcare providers may use the Work freely without restriction,
+           regardless of organization size, revenue, or number of employees.
            
-           - "Healthcare Enterprise" means any Commercial Entity operating
-             in the healthcare sector, including but not limited to hospitals,
-             health systems, large medical groups, health insurance companies,
-             pharmaceutical companies, medical device manufacturers, and
-             healthcare IT vendors with commercial products.
-
-       (b) COMMERCIAL ENTITY RESTRICTIONS.
-           Commercial Entities and Healthcare Enterprises may use the Work
-           for evaluation, development, and testing purposes only. Production
-           use by Commercial Entities requires:
+           "Healthcare Providers" include:
+           - Hospitals and health systems (any size)
+           - Medical clinics and physician practices
+           - Community health centers
+           - Public health departments and agencies
+           - Academic medical centers and teaching hospitals
+           - Long-term care facilities and nursing homes
+           - Mental health and behavioral health facilities
+           - Rehabilitation and specialty care centers
+           - Non-profit healthcare organizations
+           - Health research institutions
            
-           (i)   Execution of a separate Commercial License Agreement with
-                 the Licensor; OR
-           (ii)  Purchase of a Commercial Support Subscription as defined
-                 at https://openhims.org/commercial; OR
-           (iii) Written permission from the Licensor.
+           Healthcare Providers may:
+           ✅ Use in production environments freely
+           ✅ Deploy at any scale without restriction
+           ✅ Modify and customize for their needs
+           ✅ Share modifications with other healthcare providers
+           ✅ Contribute improvements back to the project
 
-       (c) PERMITTED USES WITHOUT COMMERCIAL LICENSE.
-           The following uses by Commercial Entities do NOT require a
-           commercial license:
+       (b) GENERAL OPEN-SOURCE USE.
+           All individuals, small businesses, non-profits, educational
+           institutions, and government agencies may use the Work freely
+           under standard Apache 2.0 terms without restriction.
+
+       (c) PROHIBITED COMMERCIALIZATION.
+           You may NOT use the Work to:
            
-           (i)   Internal evaluation and testing (non-production)
-           (ii)  Development and staging environments
-           (iii) Academic research purposes
-           (iv)  Open-source contributions to the OpenHIMS project
-           (v)   Providing professional services TO non-Commercial Entities
+           (i)    Sell, resell, or license the Work as a standalone product
+           (ii)   Offer the Work as a commercial SaaS platform to third parties
+           (iii)  Create proprietary derivative products for commercial sale
+           (iv)   Package and distribute the Work for profit without
+                  substantial additional value
+           (v)    Market competing commercial products based primarily on
+                  this Work
+           (vi)   Remove attribution and rebrand as your own product for sale
 
-       (d) SMALL BUSINESS AND NON-PROFIT EXEMPTION.
-           Organizations that do not meet the "Commercial Entity" definition
-           above may use the Work in production under the standard Apache 2.0
-           terms without additional licensing requirements. This includes:
+       (d) PERMITTED COMMERCIAL ACTIVITIES.
+           You MAY:
            
-           (i)   Small healthcare practices and clinics
-           (ii)  Non-profit healthcare organizations
-           (iii) Public health departments
-           (iv)  Academic and research institutions
-           (v)   Individual developers and consultants
+           (i)    Provide professional services (consulting, implementation,
+                  training, support) using the Work
+           (ii)   Deploy the Work as part of your internal business operations
+           (iii)  Use the Work as a component in a larger value-added solution
+           (iv)   Offer managed hosting services with substantial value-add
+           (v)    Develop and sell plugins/extensions that add new functionality
+           (vi)   Provide integration services connecting the Work to other systems
 
-       (e) REVENUE-GENERATING USAGE.
-           If You incorporate the Work into a commercial product or service
-           that generates revenue (whether sold, licensed, or provided as
-           SaaS), You are considered a Commercial Entity regardless of
-           organization size and must obtain a commercial license.
-
-       (f) ENFORCEMENT.
-           Violation of these corporate use restrictions shall:
+       (e) SUBSTANTIAL VALUE-ADD REQUIREMENT.
+           If You incorporate the Work into a commercial offering, You must
+           provide SUBSTANTIAL additional value beyond the Work itself, such as:
            
-           (i)   Terminate all licenses granted under this License immediately
-           (ii)  Require cessation of all use of the Work
-           (iii) May result in legal action for breach of license terms
-           (iv)  Require payment of damages and/or reasonable commercial
-                 license fees retroactively
+           (i)    Significant custom features or functionality
+           (ii)   Professional services and expertise
+           (iii)  Integration with proprietary systems
+           (iv)   Managed operations and support services
+           (v)    Domain-specific customizations
+           
+           Simply repackaging or hosting the Work without substantial
+           additional value is prohibited.
 
-       (g) COMMERCIAL LICENSE INQUIRIES.
-           For commercial licensing, contact: sales@openhims.org
-           For license compliance questions, contact: legal@openhims.org
+       (f) ATTRIBUTION AND TRANSPARENCY.
+           If You offer commercial services based on the Work:
+           
+           (i)    Clearly disclose that the core platform is OpenHIMS open-source
+           (ii)   Provide attribution to the OpenHIMS project
+           (iii)  Do not claim the Work as your proprietary technology
+           (iv)   Link to the official OpenHIMS project where possible
+           (v)    Distinguish your value-add from the open-source core
 
-   12. Audit Rights.
+       (g) ENFORCEMENT AND VIOLATIONS.
+           Violation of anti-commercialization provisions shall:
+           
+           (i)    Terminate all licenses granted under this License immediately
+           (ii)   Require cessation of prohibited commercial activities
+           (iii)  May result in legal action for breach of license terms
+           (iv)   Require payment of damages and disgorgement of profits
+           (v)    May result in public disclosure of violation
+
+       (h) QUESTIONS AND CLARIFICATIONS.
+           If You are unsure whether your intended use is permitted:
+           
+           - Email: legal@openhims.org for guidance
+           - Generally: If you're helping healthcare, you're fine
+           - Generally: If you're just reselling our work, you're not
+           - When in doubt, ask before proceeding
+
+   12. Optional Proprietary Extensions by Licensor.
+
+       IMPORTANT: The OpenHIMS core platform is and will always remain
+       completely open-source. This section only addresses optional
+       proprietary extensions that the Licensor may develop separately.
+
+       (a) LICENSOR'S RIGHT TO CREATE PROPRIETARY EXTENSIONS.
+           While the OpenHIMS core platform remains fully open-source, the
+           Licensor reserves the right to develop and distribute certain
+           OPTIONAL packages, modules, or features under separate proprietary
+           licenses that are NOT subject to this open-source license.
+           
+           These are completely separate products, not part of the core platform.
+
+       (b) CORE PLATFORM REMAINS FULLY FUNCTIONAL.
+           The open-source core platform provides complete, production-ready
+           healthcare interoperability functionality without any proprietary
+           extensions. Proprietary extensions are OPTIONAL enhancements only.
+           
+           The Licensor commits to:
+           (i)    Never removing features from open-source to create paid versions
+           (ii)   Maintaining the core as fully functional and competitive
+           (iii)  Never requiring proprietary extensions for standard use cases
+           (iv)   Documenting which features are open-source vs. proprietary
+
+       (c) SCOPE OF OPTIONAL PROPRIETARY EXTENSIONS.
+           Optional proprietary extensions may include:
+           
+           (i)    Advanced enterprise management consoles
+           (ii)   Specialized analytics and business intelligence
+           (iii)  AI/ML predictive models and algorithms
+           (iv)   Proprietary optimization algorithms
+           (v)    White-label or OEM-specific versions
+           (vi)   Managed service automation tools
+           
+           These are value-added enhancements, not core functionality.
+
+       (d) COMMUNITY CAN BUILD ALTERNATIVES.
+           The community is explicitly encouraged and permitted to build
+           open-source alternatives to any proprietary extensions. The
+           Licensor will:
+           
+           (i)    Maintain open, documented APIs for all integrations
+           (ii)   Never create intentional incompatibilities
+           (iii)  Support community-built alternatives
+           (iv)   No lock-in mechanisms or proprietary protocols
+           (v)    Ensure core platform works with any compatible extensions
+
+       (e) SEPARATE LICENSING FOR PROPRIETARY EXTENSIONS.
+           Any proprietary extensions are subject to their own separate:
+           
+           (i)   End User License Agreement (EULA)
+           (ii)  Pricing and licensing terms
+           (iii) Support and maintenance agreements
+           (iv)  Distribution restrictions
+           
+           These terms do NOT affect the open-source core platform.
+
+       (f) TRANSPARENCY COMMITMENT.
+           The Licensor commits to:
+           
+           (i)    Clearly label what is open-source vs. proprietary
+           (ii)   Publish a list of proprietary extensions (if any)
+           (iii)  Never mislead users about open-source status
+           (iv)   Respond to community feedback on commercialization
+           (v)    Prioritize open-source development over proprietary extensions
+
+       (g) HEALTHCARE PROVIDERS GET FREE ACCESS.
+           Healthcare providers (as defined in Section 11.a) receive free
+           access to proprietary extensions if available, in support of
+           their mission to improve healthcare delivery.
+
+       (h) NOTE ON CURRENT STATUS.
+           As of the date of this license, no proprietary extensions exist.
+           All OpenHIMS components are fully open-source. This section
+           reserves the right for future optional proprietary extensions
+           should they be developed.
+           
+           Any future proprietary extensions will be announced transparently
+           to the community.
+
+   13. Audit Rights.
 
        If You are a Commercial Entity or Healthcare Enterprise using the Work,
        You agree that the Licensor may, upon reasonable notice and during
@@ -288,13 +396,32 @@
        with these license terms. You agree to reasonably cooperate with such
        audits and provide necessary documentation.
 
-   13. Jurisdiction and Governing Law.
+   14. No Confusion or Misrepresentation.
+
+       (a) CLEAR DISTINCTION REQUIRED.
+           You must clearly distinguish between:
+           
+           (i)   Open-source components licensed under this license
+           (ii)  Commercial-only packages with proprietary licenses
+           (iii) Your own modifications and derivative works
+           (iv)  Third-party components and integrations
+
+       (b) ATTRIBUTION AND BRANDING.
+           When using both open-source and commercial-only packages:
+           
+           (i)   Properly attribute the open-source core platform
+           (ii)  Do not claim commercial packages are open-source
+           (iii) Do not remove or modify license notifications
+           (iv)  Follow branding guidelines for OpenHIMS trademarks
+           (v)   See BRANDING-GUIDE.md for detailed requirements
+
+   15. Jurisdiction and Governing Law.
 
        These additional terms shall be governed by and construed in accordance
        with the laws of the jurisdiction where the Licensor is established,
        without regard to conflict of law principles.
 
-   14. Severability.
+   16. Severability.
 
        If any provision of these additional terms is held to be unenforceable
        or invalid, such provision shall be changed and interpreted to
@@ -302,14 +429,16 @@
        possible under applicable law, and the remaining provisions shall
        continue in full force and effect.
 
-   15. Contact and Questions.
+   17. Contact and Questions.
 
        For questions about this license:
        - General: legal@openhims.org
        - Commercial licensing: sales@openhims.org
-       - Compliance: compliance@openhims.org
+       - Commercial packages: commercial@openhims.org
+       - License compliance: compliance@openhims.org
+       - Package catalog: https://openhims.org/commercial/packages
 
-   16. Founder Service Request Program.
+   18. Founder Service Request Program.
 
        (a) ELIGIBILITY TO REQUEST FREE SERVICES.
            Any organization or individual using the Work may submit a request

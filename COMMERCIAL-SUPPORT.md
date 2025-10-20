@@ -111,6 +111,51 @@
 
 ---
 
+## Commercial-Only Packages
+
+### 📦 Enterprise Software Packages
+
+In addition to support services, we offer **commercial-only proprietary packages** that extend OpenHIMS with advanced enterprise capabilities.
+
+**Key Packages:**
+
+#### OpenHIMS Enterprise Manager
+Advanced multi-tenant administration console with centralized management, role-based dashboards, and enterprise SSO.
+
+#### OpenHIMS Analytics Platform  
+Business intelligence, advanced reporting, custom dashboards, and data visualization for healthcare insights.
+
+#### OpenHIMS AI/ML Extensions
+Predictive analytics, machine learning models, anomaly detection, and intelligent routing for healthcare workflows.
+
+#### OpenHIMS Compliance Suite Pro
+Multi-regulation automated compliance toolkit covering HIPAA, GDPR, FDA, SOC 2, and region-specific requirements.
+
+#### OpenHIMS Cloud Control Plane
+Multi-region orchestration, auto-scaling, disaster recovery, and centralized monitoring for cloud deployments.
+
+#### OpenHIMS HL7 Accelerator Pro
+High-performance message processing with advanced transformation rules, complex routing, and optimized throughput.
+
+#### OpenHIMS Enterprise Security Bundle
+Advanced threat detection, behavioral analytics, zero-trust architecture, and enhanced audit capabilities.
+
+**Characteristics:**
+- ❌ **NO source code** (proprietary binaries only)
+- ✅ Each package has separate EULA and pricing
+- ✅ Subscription or perpetual licensing options
+- ✅ Includes updates, patches, and support
+- ✅ 30-90 day trial periods available
+- ✅ Free for non-profits (case-by-case basis)
+
+**Browse Full Catalog**: [https://openhims.org/commercial/packages](https://openhims.org/commercial/packages)
+
+**Contact**: commercial@openhims.org for pricing and trials
+
+**See Also**: [LICENSE Section 12](./LICENSE) for legal terms
+
+---
+
 ## Professional Services
 
 ### 🚀 Implementation & Deployment

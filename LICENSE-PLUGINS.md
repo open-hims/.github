@@ -1,14 +1,20 @@
-# Plugin Licensing Model
+# Plugin and Package Licensing Model
 
 ## Overview
 
-OpenHIMS follows a **dual licensing model** to balance open-source collaboration with sustainable development of specialized compliance features.
+OpenHIMS follows a **three-tier licensing model** to balance open-source collaboration with sustainable development of specialized features:
+
+1. **Open-Source Core** — Apache 2.0 (with healthcare/corporate clauses)
+2. **Open-Source Plugins** — Apache 2.0 (community-developed extensions)
+3. **Commercial-Only Packages** — Proprietary (advanced enterprise features)
+
+This document explains how each tier works and what you can expect.
 
 ---
 
 ## Core Platform License
 
-The **OpenHIMS core platform** (RustCare Engine) is licensed under the **Apache 2.0 License** with an additional Healthcare Liability Clause. This ensures:
+The **OpenHIMS core platform** (RustCare Engine) is licensed under the **Apache 2.0 License** with additional Healthcare Liability and Corporate Use Restriction clauses. This ensures:
 
 - ✅ Free and open-source usage
 - ✅ Permissive modification and redistribution
@@ -19,9 +25,32 @@ See the main [LICENSE](./LICENSE) file for full details.
 
 ---
 
-## Plugin Licensing Categories
+## Three-Tier Model Explained
 
-### 1. **Open-Source Plugins** (Apache 2.0)
+### Tier 1: **Open-Source Core Platform** (Apache 2.0 + Restrictions)
+
+The foundation — fully functional, production-ready healthcare interoperability engine.
+
+**Includes:**
+- HL7 FHIR R4 support
+- HL7 v2.x message processing
+- Basic DICOM support
+- Authentication and authorization
+- Audit logging
+- Encryption and security
+- Plugin architecture and SDK
+- REST APIs
+- Basic administration tools
+
+**License**: Apache 2.0 with Healthcare Liability and Corporate Use Restrictions
+
+**Free for**: Small businesses (<$10M revenue, <100 employees), non-profits, academic institutions, development/testing
+
+**Commercial license required for**: Enterprise production use ($10M+ revenue OR 100+ employees)
+
+---
+
+### Tier 2: **Open-Source Plugins** (Apache 2.0)
 
 General-purpose plugins that enhance core functionality remain open-source under Apache 2.0:
 
@@ -37,9 +66,45 @@ General-purpose plugins that enhance core functionality remain open-source under
 
 ---
 
-### 2. **Compliance Plugins** (Commercial License)
+### Tier 3: **Commercial-Only Packages** (Proprietary)
 
-Specialized compliance and regulatory plugins are offered under a **commercial license** to support ongoing development and certification maintenance:
+**Pure commercial packages** with NO source code access — distributed as binary/compiled only.
+
+These are advanced enterprise features that go beyond the open-source offerings:
+
+**Examples:**
+- **OpenHIMS Enterprise Manager** — Advanced multi-tenant admin console
+- **OpenHIMS Analytics Platform** — Advanced BI, reporting, and dashboards
+- **OpenHIMS AI/ML Extensions** — Predictive analytics and machine learning
+- **OpenHIMS Cloud Control Plane** — Multi-region orchestration
+- **OpenHIMS HL7 Accelerator Pro** — High-performance message processing
+- **OpenHIMS Enterprise Security Bundle** — Advanced threat detection
+- **OpenHIMS Compliance Suite Pro** — Multi-regulation automated compliance
+
+**Key Characteristics:**
+- ❌ **NO source code** provided (proprietary)
+- ✅ Binary/compiled distribution only
+- ✅ Each package has its own EULA
+- ✅ Subscription or perpetual licensing
+- ✅ Includes support and updates
+- ✅ 30-90 day trial periods available
+- ✅ Free for non-profits (case-by-case)
+
+**Location**: Available at [https://openhims.org/commercial/packages](https://openhims.org/commercial/packages)
+
+**Pricing**: Custom based on organization size and usage
+
+**Contact**: commercial@openhims.org
+
+**Important**: Commercial-only packages are completely **separate** from open-source components. The core platform remains fully functional without them.
+
+---
+
+## Historical: Dual-Licensed Compliance Plugins
+
+**Note**: This section describes our previous dual-licensing model for compliance plugins. We are transitioning to the three-tier model above, but existing dual-licensed plugins remain available.
+
+Specialized compliance and regulatory plugins previously offered under **dual licensing** (open-source OR commercial):
 
 - **HIPAA Business Associate Agreement (BAA) compliance toolkit**
 - **FDA 21 CFR Part 11 validation suite**
@@ -164,25 +229,33 @@ Basic licenses include community support. Premium support with SLAs is available
 
 ## License Comparison Table
 
-| Feature | Core Platform | OSS Plugins | Commercial Plugins |
-|---------|--------------|-------------|-------------------|
-| License | Apache 2.0 + Healthcare Clause | Apache 2.0 | Commercial |
-| Cost | Free | Free | Paid (with free tier) |
-| Source Code | Available | Available | Available (audit only) |
-| Modification | Allowed | Allowed | Restricted |
-| Redistribution | Allowed | Allowed | Prohibited |
-| Commercial Use | Allowed | Allowed | Requires License |
-| Certification | Community | Community | Official/Certified |
-| Support | Community | Community | Included (varies by tier) |
+| Feature | Core Platform | OSS Plugins | Dual-Licensed Plugins | Commercial-Only Packages |
+|---------|--------------|-------------|----------------------|-------------------------|
+| License | Apache 2.0 + Clauses | Apache 2.0 | Apache 2.0 OR Commercial | Proprietary (EULA) |
+| Cost | Free* | Free | Free OR Paid | Paid only |
+| Source Code | ✅ Available | ✅ Available | ✅ Available (audit for commercial) | ❌ NOT Available |
+| Modification | ✅ Allowed | ✅ Allowed | ✅ OSS version / ❌ Commercial version | ❌ Prohibited |
+| Redistribution | ✅ Allowed | ✅ Allowed | ✅ OSS version / ❌ Commercial version | ❌ Prohibited |
+| Enterprise Use | Commercial license | ✅ Allowed | Requires License | Requires License |
+| Certification | Community | Community | Official (commercial) | Official |
+| Support | Community | Community | Included (commercial) | Included |
+| Trial Period | N/A | N/A | Available | 30-90 days |
+| Reverse Engineering | Allowed | Allowed | ❌ Prohibited (commercial) | ❌ Prohibited |
+
+\* Free for small businesses, non-profits, academics. Commercial license required for enterprises ($10M+ revenue OR 100+ employees) in production.
 
 ---
 
 ## Contact
 
 **Legal Questions**: legal@openhims.org  
-**Licensing Inquiries**: licenses@openhims.org  
+**Open-Source Licensing**: licenses@openhims.org  
+**Commercial Packages**: commercial@openhims.org  
+**Enterprise Sales**: sales@openhims.org  
 **General Support**: support@openhims.org  
 **Community Forum**: [https://forum.openhims.org](https://forum.openhims.org)
+
+**Package Catalog**: [https://openhims.org/commercial/packages](https://openhims.org/commercial/packages)
 
 ---
 

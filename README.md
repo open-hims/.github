@@ -15,6 +15,10 @@
 
 ---
 
+> **📋 Note:** This is the OpenHIMS organization's special `.github` repository. The community health files here (LICENSE, CODE_OF_CONDUCT.md, CONTRIBUTING.md, SECURITY.md, etc.) serve as organization-wide defaults and will be visible across all OpenHIMS repositories. You can view these from any repository in the organization under the "Insights" → "Community" tab, or from the organization profile page.
+
+---
+
 ## 🏥 What is OpenHIMS?
 
 **OpenHIMS** is a high-performance, secure, and fully open-source **Healthcare Information Management System** designed for modern healthcare interoperability. Built from the ground up in Rust, it provides:
@@ -41,6 +45,30 @@ Healthcare systems are fragmented. Electronic Health Records (EHRs), laboratory 
 ## 📚 Repository Documentation
 
 This `.github` repository contains all community health files, contribution guidelines, and governance documentation for the OpenHIMS project.
+
+### 🔍 How to Access These Files
+
+These files are automatically available across all OpenHIMS repositories:
+
+1. **From Any Repository:**
+   - Navigate to the repository's "Insights" tab
+   - Click "Community" in the left sidebar
+   - View all community health files
+
+2. **From Organization Profile:**
+   - Visit [github.com/openhims](https://github.com/openhims)
+   - Click on ".github" repository
+   - Browse all documentation
+
+3. **Direct Links:**
+   - LICENSE: Automatically displayed in all repos
+   - Contributing guidelines: Shown when creating pull requests
+   - Code of conduct: Referenced in issue templates
+   - Security policy: Accessible via "Security" tab
+
+### 🌐 Organization-Wide Default Files
+
+Files in this repository serve as defaults for **all OpenHIMS repositories** that don't have their own versions. This ensures consistent community standards across the entire organization.
 
 ### Essential Documentation
 
@@ -247,39 +275,75 @@ We welcome contributions! Our community includes:
 
 ## 📄 Licensing
 
-### Core Platform
+### Completely Open Source
 
-**Apache 2.0 License** with Healthcare Liability and Corporate Use Restrictions
+**Apache 2.0 License** with Healthcare-First and Anti-Commercialization Provisions
 
-- ✅ **Free for small businesses** (under $10M revenue or <100 employees)
-- ✅ **Free for non-profits** and educational institutions
-- ✅ **Free for development/testing** by all organizations
-- ⚠️ **Commercial license required** for enterprise production use
-- ✅ Permissive modification and redistribution
-- ✅ Patent grant protection
-- ⚠️ Healthcare liability protections (see license)
+**✅ FREE FOR EVERYONE:**
+- ✅ **Hospitals & healthcare providers** — ANY SIZE, unlimited use
+- ✅ **Small businesses, non-profits, education** — completely free
+- ✅ **Individuals and developers** — no restrictions
+- ✅ **Government and public health** — full access
+- ✅ **Modify, customize, deploy** at any scale
+- ✅ **Contribute back** improvements to the community
 
-**Enterprise Organizations**: Production use by commercial entities ($10M+ revenue or 100+ employees) requires a commercial license. Contact sales@openhims.org
+**❌ YOU CANNOT:**
+- ❌ Sell or resell OpenHIMS as a standalone product
+- ❌ Offer as commercial SaaS without substantial value-add
+- ❌ Rebrand and market as your proprietary product
+- ❌ Create competing products that just repackage our work
+
+**✅ YOU CAN:**
+- ✅ Provide consulting and professional services using OpenHIMS
+- ✅ Use internally in your business operations  
+- ✅ Build and sell plugins/extensions
+- ✅ Offer managed hosting with value-added services
+- ✅ Integrate into larger solutions
+
+**Philosophy**: Hospitals can freely download, use, and contribute back. Corporations cannot just resell our work, but can provide legitimate services around it.
 
 [Read full license →](./LICENSE)
 
-### Plugins
+### Plugins & Extensions
 
-**Dual licensing model**:
-- **Open-source plugins** — Apache 2.0
-- **Compliance plugins** — Commercial licensing available
+**All plugins are open source** under Apache 2.0.
 
-[Learn about plugin licensing →](./LICENSE-PLUGINS.md)
+The community can build and share:
+- Integration plugins (EHR, PACS, LIS systems)
+- Data transformation modules
+- Compliance and validation rules
+- Custom workflows
+- Analytics and reporting
+- Authentication providers
 
-### Why These License Terms?
+**You're free to**:
+- Build commercial plugins and sell them
+- Create proprietary extensions
+- Offer premium integrations
+- Develop vertical-specific solutions
 
-We believe in open source **and** sustainability. Our license allows:
-- ✅ Small healthcare practices to use freely
-- ✅ Non-profits and research to benefit without cost
-- ✅ Everyone to learn, test, and contribute
-- ⚠️ Large enterprises to support continued development
+The core remains completely open. Build businesses on top of it!
 
-This model ensures OpenHIMS remains actively maintained while staying accessible to those who need it most.
+[Learn about plugin development →](./LICENSE-PLUGINS.md)
+
+### Why Anti-Commercialization?
+
+We're building **healthcare infrastructure as a public good**, not a product to be repackaged and sold.
+
+**Our Philosophy:**
+- 🏥 **Healthcare First** — Hospitals and providers should have free, unrestricted access
+- 🌍 **Public Good** — Healthcare interoperability benefits everyone
+- 🚫 **No Middlemen** — Corporations shouldn't profit just by reselling our work
+- ✅ **Service Economy** — Make money by adding real value, not gatekeeping
+- 🤝 **Community Owned** — Built by healthcare professionals, for healthcare
+
+**What This Means:**
+- Hospitals of any size: Use freely ✅
+- Consultants helping hospitals: Get paid for your expertise ✅
+- Corporations reselling OpenHIMS unchanged: Not allowed ❌
+- Companies building value-added solutions: Encouraged ✅
+
+This ensures OpenHIMS remains a commons while still allowing a healthy ecosystem of businesses providing legitimate services.
 
 ### 💝 Unique: Request Free Services from Founders
 
