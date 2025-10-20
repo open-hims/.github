@@ -265,9 +265,9 @@ We welcome contributions! Our community includes:
 ### Future
 
 - 📋 AI/ML pipeline integration
-- 📋 Blockchain for audit trails
 - 📋 SMART on FHIR apps support
 - 📋 Mobile SDKs (iOS/Android)
+- 📋 Enhanced audit and compliance reporting
 
 [View detailed roadmap →](https://github.com/openhims/rustcare-engine/projects)
 
