@@ -42,127 +42,6 @@ Healthcare systems are fragmented. Electronic Health Records (EHRs), laboratory 
 
 ---
 
-## 📚 Repository Documentation
-
-This `.github` repository contains all community health files, contribution guidelines, and governance documentation for the OpenHIMS project.
-
-### 🔍 How to Access These Files
-
-These files are automatically available across all OpenHIMS repositories:
-
-1. **From Any Repository:**
-   - Navigate to the repository's "Insights" tab
-   - Click "Community" in the left sidebar
-   - View all community health files
-
-2. **From Organization Profile:**
-   - Visit [github.com/openhims](https://github.com/openhims)
-   - Click on ".github" repository
-   - Browse all documentation
-
-3. **Direct Links:**
-   - LICENSE: Automatically displayed in all repos
-   - Contributing guidelines: Shown when creating pull requests
-   - Code of conduct: Referenced in issue templates
-   - Security policy: Accessible via "Security" tab
-
-### 🌐 Organization-Wide Default Files
-
-Files in this repository serve as defaults for **all OpenHIMS repositories** that don't have their own versions. This ensures consistent community standards across the entire organization.
-
-### Essential Documentation
-
-| Document | Purpose | Audience |
-|----------|---------|----------|
-| **[LICENSE](./LICENSE)** | Apache 2.0 + Healthcare Liability Clause | Everyone |
-| **[LICENSE-PLUGINS.md](./LICENSE-PLUGINS.md)** | Dual licensing model for plugins | Developers, Organizations |
-| **[CONTRIBUTING.md](./CONTRIBUTING.md)** | How to contribute (RFC process, standards) | Contributors |
-| **[CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md)** | Community standards and behavior | Everyone |
-| **[SECURITY.md](./SECURITY.md)** | Vulnerability reporting and security policy | Security Researchers |
-| **[BRANDING-GUIDE.md](./BRANDING-GUIDE.md)** | Logo usage and brand guidelines | Marketers, Content Creators |
-| **[COMMERCIAL-SUPPORT.md](./COMMERCIAL-SUPPORT.md)** | Professional support and services | Organizations, Enterprises |
-
-### Issue & PR Templates
-
-We provide structured templates to help you contribute effectively:
-
-- 🐛 **[Bug Report](./ISSUE_TEMPLATE/bug_report.md)** — Report bugs with healthcare impact assessment
-- 💡 **[Feature Request](./ISSUE_TEMPLATE/feature_request.md)** — Suggest new features
-- 🔌 **[Plugin Request](./ISSUE_TEMPLATE/plugin_request.md)** — Request integrations or plugins
-- 📋 **[Compliance Request](./ISSUE_TEMPLATE/compliance_request.md)** — Request regulatory compliance features
-- 🔀 **[Pull Request Template](./PULL_REQUEST_TEMPLATE.md)** — Comprehensive PR checklist
-
----
-
-## 🚀 Quick Start
-
-### For Users
-
-```bash
-# Clone the main repository
-git clone https://github.com/openhims/rustcare-engine.git
-cd rustcare-engine
-
-# Build and run
-cargo build --release
-cargo run
-```
-
-### For Contributors
-
-1. **Read** [CONTRIBUTING.md](./CONTRIBUTING.md) for our development workflow
-2. **Check** existing issues or create a new one
-3. **Fork** the repository and create a feature branch
-4. **Make** your changes following our coding standards
-5. **Submit** a pull request using our [template](./PULL_REQUEST_TEMPLATE.md)
-
-For major features, please submit an **RFC** (Request for Comments) first.
-
-### For Organizations
-
-Deploying OpenHIMS in production? We offer:
-
-- 💝 **[FREE Founder Services](./COMMERCIAL-SUPPORT.md#-founder-service-request-program)** — Request complimentary help from founders
-- 💼 **[Professional Support](./COMMERCIAL-SUPPORT.md)** — 24/7 support with SLAs
-- 🎓 **Training Programs** — For developers and administrators
-- 🏥 **Implementation Services** — End-to-end deployment assistance
-- 📋 **Compliance Consulting** — HIPAA, GDPR, FDA guidance
-
-**Need help but no budget?** Email founders@openhims.org — we offer free services to organizations with genuine need, especially non-profits, public health, and underserved communities.
-
-**Have budget?** Contact sales@openhims.org for professional support
-
----
-
-## 🏗️ Architecture Overview
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│                     OpenHIMS Platform                        │
-├─────────────────────────────────────────────────────────────┤
-│  API Layer          │  Web Dashboard  │  Admin Console      │
-├─────────────────────────────────────────────────────────────┤
-│              RustCare Engine (Core)                          │
-│  ┌──────────┬──────────┬──────────┬──────────┬──────────┐  │
-│  │   FHIR   │  HL7 v2  │  DICOM   │   Auth   │  Audit   │  │
-│  │  Module  │  Module  │  Module  │  Module  │  Module  │  │
-│  └──────────┴──────────┴──────────┴──────────┴──────────┘  │
-├─────────────────────────────────────────────────────────────┤
-│                    Plugin System                             │
-│  [ EHR Connectors ] [ Lab Integrations ] [ Custom Rules ]   │
-└─────────────────────────────────────────────────────────────┘
-                            ↕
-              ┌──────────────────────────┐
-              │  External Systems        │
-              │  • Epic, Cerner         │
-              │  • Laboratory (LIS)     │
-              │  • PACS/Imaging         │
-              │  • Pharmacy Systems     │
-              └──────────────────────────┘
-```
-
----
-
 ## 🌟 Key Features
 
 ### 🔐 Security & Compliance
@@ -202,6 +81,16 @@ For implementation details, deployment guidance, and our vulnerability disclosur
 
 ---
 
+<div align="center">
+
+**Built with ❤️ by the OpenHIMS Community**
+
+Copyright © 2025 OpenHIMS Project • [Apache 2.0 License](./LICENSE)
+
+</div>
+
+---
+
 ## 🤝 Community & Support
 
 ### Get Help
@@ -228,21 +117,7 @@ We welcome contributions! Our community includes:
 
 ---
 
-## 📊 Project Status
-
-| Metric | Status |
-|--------|--------|
-| **Version** | 1.0.0 (stable) |
-| **Build** | ![Passing](https://img.shields.io/badge/build-passing-brightgreen) |
-| **Test Coverage** | ![85%](https://img.shields.io/badge/coverage-85%25-green) |
-| **Documentation** | ![Up to date](https://img.shields.io/badge/docs-up%20to%20date-blue) |
-| **Security Audit** | Last: Oct 2025 |
-| **Active Contributors** | 50+ |
-| **Production Deployments** | 100+ organizations |
-
----
-
-##  Licensing
+## � Licensing
 
 ### Completely Open Source
 
