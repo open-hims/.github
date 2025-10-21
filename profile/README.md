@@ -259,33 +259,6 @@ OpenHIMS is built on the shoulders of giants:
 
 ---
 
-## 📞 Contact
-
-### General Inquiries
-- 📧 **Email**: info@openhims.org
-
-### Specific Contacts
-- 💼 **Sales**: sales@openhims.org
-- 🔒 **Security**: security@openhims.org
-- 📚 **Documentation**: docs@openhims.org
-- 🤝 **Partnerships**: partners@openhims.org
-- ⚖️ **Legal**: legal@openhims.org
-- 💝 **Founders**: founders@openhims.org
-
----
-
-## ⭐ Star History
-
-If you find OpenHIMS valuable, please consider:
-
-- ⭐ **Starring** the repository
-- 🐦 **Sharing** on social media
-- 📝 **Writing** about your experience
-- 💬 **Joining** the community
-- 🤝 **Contributing** code or documentation
-
----
-
 <div align="center">
 
 **Built with ❤️ by the OpenHIMS Community**
