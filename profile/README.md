@@ -2,14 +2,14 @@
 
 <div align="center">
 
+<img src="logo.png" alt="OpenHIMS Logo" width="200"/>
+
 **Open Healthcare Interoperability, Built with Rust**
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](./LICENSE)
 [![HIPAA](https://img.shields.io/badge/HIPAA-Compliant-green.svg)]()
 [![Rust](https://img.shields.io/badge/Rust-1.70%2B-orange.svg)]()
 [![FHIR](https://img.shields.io/badge/FHIR-R4%2B-00a896.svg)]()
-
-[Documentation](https://docs.openhims.org) • [Community](https://forum.openhims.org) • [Discord](https://discord.gg/openhims) • [Website](https://openhims.org)
 
 </div>
 
@@ -108,12 +108,10 @@ cargo build --release
 cargo run
 ```
 
-📖 **[Read the full documentation →](https://docs.openhims.org/getting-started)**
-
 ### For Contributors
 
 1. **Read** [CONTRIBUTING.md](./CONTRIBUTING.md) for our development workflow
-2. **Check** existing [issues](https://github.com/openhims/rustcare-engine/issues) or create a new one
+2. **Check** existing issues or create a new one
 3. **Fork** the repository and create a feature branch
 4. **Make** your changes following our coding standards
 5. **Submit** a pull request using our [template](./PULL_REQUEST_TEMPLATE.md)
@@ -176,7 +174,18 @@ Deploying OpenHIMS in production? We offer:
 - ✅ End-to-end encryption (TLS 1.3, AES-256-GCM)
 - ✅ Comprehensive audit logging
 
-### 🔌 Interoperability Standards
+### � Security (Data at Rest & in Transit)
+
+- Data in transit is protected by TLS 1.3 with strong cipher suites (AES-256-GCM) and mutual TLS available for high-assurance integrations.
+- Data at rest is encrypted using AES-256 with authenticated encryption. Sensitive configuration and secrets use a vetted secrets manager and hardware-backed key storage where available (HSM or cloud KMS).
+- Key management follows separation of duties: encryption keys are rotated regularly, access is audited, and keys are never stored alongside application data.
+- Access is governed by Role-Based Access Control (RBAC) with least-privilege defaults, multi-factor authentication (MFA) for administrative access, and fine-grained API scopes for integrations.
+- Audit and telemetry: all access to PHI and critical systems is logged with immutable, tamper-evident audit trails. Logs are retained according to organizational policy and can be exported to SIEMs for monitoring and alerting.
+- Operational controls: secure-by-default configuration, regular vulnerability scanning, dependency management, and periodic third-party security audits (see Security Audit date above).
+
+For implementation details, deployment guidance, and our vulnerability disclosure process, see `SECURITY.md` and `BRANDING-GUIDE.md` or contact security@openhims.org.
+
+### �🔌 Interoperability Standards
 
 - ✅ **HL7 FHIR R4+** — Full resource support
 - ✅ **HL7 v2.x** — Versions 2.3 through 2.8
@@ -191,30 +200,19 @@ Deploying OpenHIMS in production? We offer:
 - 🚀 **Memory safe** — No buffer overflows, no data races
 - 🚀 **Concurrent** — Multi-threaded Rust performance
 
-### 🔧 Developer Experience
-
-- 📖 Comprehensive API documentation
-- 🔌 Plugin SDK with examples
-- 🧪 Integration test suite
-- 🐳 Docker and Kubernetes ready
-- 📦 Pre-built binary releases
-
 ---
 
 ## 🤝 Community & Support
 
 ### Get Help
 
-- 💬 **[GitHub Discussions](https://github.com/openhims/rustcare-engine/discussions)** — Q&A, ideas, announcements
-- 🗨️ **[Discord Server](https://discord.gg/openhims)** — Real-time community chat
-- 📖 **[Documentation](https://docs.openhims.org)** — Comprehensive guides and API docs
-- 📧 **[Mailing List](mailto:community@openhims.org)** — Community updates
+- � **Email**: community@openhims.org — Community updates and questions
 
 ### Report Issues
 
-- 🐛 **Bugs** → [Bug Report Template](https://github.com/openhims/rustcare-engine/issues/new?template=bug_report.md)
+- 🐛 **Bugs** → [Bug Report Template](./ISSUE_TEMPLATE/bug_report.md)
 - 🔒 **Security** → [Security Policy](./SECURITY.md) (private disclosure)
-- 💡 **Features** → [Feature Request Template](https://github.com/openhims/rustcare-engine/issues/new?template=feature_request.md)
+- 💡 **Features** → [Feature Request Template](./ISSUE_TEMPLATE/feature_request.md)
 
 ### Contributing
 
@@ -244,36 +242,7 @@ We welcome contributions! Our community includes:
 
 ---
 
-## 🗺️ Roadmap
-
-### Current (2025 Q4)
-
-- ✅ FHIR R4 complete implementation
-- ✅ HL7 v2.x full support
-- ✅ Core plugin architecture
-- 🚧 SOC 2 Type II certification
-- 🚧 Performance benchmarking suite
-
-### Next (2026 Q1-Q2)
-
-- 📋 FHIR R5 support
-- 📋 GraphQL API layer
-- 📋 Real-time CDC (Change Data Capture)
-- 📋 Advanced analytics engine
-- 📋 Multi-region deployment support
-
-### Future
-
-- 📋 AI/ML pipeline integration
-- 📋 Blockchain for audit trails
-- 📋 SMART on FHIR apps support
-- 📋 Mobile SDKs (iOS/Android)
-
-[View detailed roadmap →](https://github.com/openhims/rustcare-engine/projects)
-
----
-
-## 📄 Licensing
+##  Licensing
 
 ### Completely Open Source
 
@@ -391,19 +360,9 @@ This ensures that organizations doing important healthcare work can access OpenH
 > *"OpenHIMS reduced our integration costs by 60% and improved data quality significantly."*  
 > — CTO, Regional Health System
 
-[Read case studies →](https://openhims.org/case-studies)
-
 ---
 
 ## 🎓 Resources
-
-### Learning
-
-- 📖 [Getting Started Guide](https://docs.openhims.org/getting-started)
-- 🎥 [Video Tutorials](https://youtube.com/@openhims)
-- 📚 [API Reference](https://docs.openhims.org/api)
-- 🔌 [Plugin Development Guide](https://docs.openhims.org/plugins)
-- 🏥 [Healthcare Interoperability 101](https://docs.openhims.org/healthcare-101)
 
 ### Standards & Specifications
 
@@ -423,17 +382,12 @@ OpenHIMS is built on the shoulders of giants:
 - **Open-source Contributors** — For countless hours of dedication
 - **Healthcare IT Professionals** — For domain expertise and feedback
 
-Special thanks to our [core contributors](https://github.com/openhims/rustcare-engine/graphs/contributors) and [sponsors](https://openhims.org/sponsors).
-
 ---
 
 ## 📞 Contact
 
 ### General Inquiries
-- 🌐 **Website**: [openhims.org](https://openhims.org)
 - 📧 **Email**: info@openhims.org
-- 🐦 **Twitter/X**: [@OpenHIMS](https://twitter.com/OpenHIMS)
-- 💼 **LinkedIn**: [OpenHIMS Project](https://linkedin.com/company/openhims)
 
 ### Specific Contacts
 - 💼 **Sales**: sales@openhims.org
@@ -441,6 +395,7 @@ Special thanks to our [core contributors](https://github.com/openhims/rustcare-e
 - 📚 **Documentation**: docs@openhims.org
 - 🤝 **Partnerships**: partners@openhims.org
 - ⚖️ **Legal**: legal@openhims.org
+- 💝 **Founders**: founders@openhims.org
 
 ---
 
@@ -459,8 +414,6 @@ If you find OpenHIMS valuable, please consider:
 <div align="center">
 
 **Built with ❤️ by the OpenHIMS Community**
-
-[Main Repository](https://github.com/openhims/rustcare-engine) • [Documentation](https://docs.openhims.org) • [Community](https://discord.gg/openhims)
 
 Copyright © 2025 OpenHIMS Project • [Apache 2.0 License](./LICENSE)
 
