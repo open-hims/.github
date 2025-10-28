@@ -217,7 +217,7 @@ RustCare represents a **next-generation healthcare information management system
 
 ### ⚠️ Consider Traditional Systems If:
 - You have extensive Java expertise and legacy integrations
-- You require compatibility with existing OpenMRS modules
+- You require compatibility with existing traditional healthcare modules
 - Your infrastructure is already optimized for Java workloads
 - You have regulatory requirements for certified legacy systems
 
