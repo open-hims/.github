@@ -15,7 +15,24 @@
 
 ---
 
-> **📋 Note:** This is the OpenHIMS organization's special `.github` repository. The community health files here (LICENSE, CODE_OF_CONDUCT.md, CONTRIBUTING.md, SECURITY.md, etc.) serve as organization-wide defaults and will be visible across all OpenHIMS repositories. You can view these from any repository in the organization under the "Insights" → "Community" tab, or from the organization profile page.
+## ⚖️ Why Choose RustCare?
+
+**RustCare represents next-generation healthcare technology** — purpose-built with modern tools for today's challenges. See how we compare to traditional systems:
+
+| Metric | Traditional Systems | 🚀 RustCare |
+|--------|---------------------|-------------|
+| **Performance** | 50-200ms auth latency | **<1ms** (200x faster) |
+| **Memory Usage** | 1-4 GB RAM required | **<100 MB** (40x more efficient) |
+| **Security** | Basic RBAC | **Zero-Trust + Zanzibar + PQC** |
+| **Compliance** | HIPAA (basic), HL7 v2.x | **HIPAA + FHIR R4+ + GDPR + WHO** |
+| **Deployment** | Heavy infrastructure | **Edge-ready** (Raspberry Pi) |
+| **5-Year TCO** | $270k-$650k | **$65k-$190k** (70% savings) |
+
+📊 **[Read Full Comparison →](./COMPARISON.md)**
+
+---
+
+## 📋 Note This is the OpenHIMS organization's special `.github` repository. The community health files here (LICENSE, CODE_OF_CONDUCT.md, CONTRIBUTING.md, SECURITY.md, etc.) serve as organization-wide defaults and will be visible across all OpenHIMS repositories. You can view these from any repository in the organization under the "Insights" → "Community" tab, or from the organization profile page.
 
 ---
 
@@ -79,8 +96,11 @@ Files in this repository serve as defaults for **all OpenHIMS repositories** tha
 | **[CONTRIBUTING.md](./CONTRIBUTING.md)** | How to contribute (RFC process, standards) | Contributors |
 | **[CODE_OF_CONDUCT.md](./CODE_OF_CONDUCT.md)** | Community standards and behavior | Everyone |
 | **[SECURITY.md](./SECURITY.md)** | Vulnerability reporting and security policy | Security Researchers |
+| **[COMPARISON.md](./COMPARISON.md)** | **RustCare vs Traditional Systems** | Decision Makers, Evaluators |
 | **[BRANDING-GUIDE.md](./BRANDING-GUIDE.md)** | Logo usage and brand guidelines | Marketers, Content Creators |
 | **[COMMERCIAL-SUPPORT.md](./COMMERCIAL-SUPPORT.md)** | Professional support and services | Organizations, Enterprises |
+| **[FUNDING_SETUP.md](./FUNDING_SETUP.md)** | Funding and sponsorship guide | Sponsors, Contributors |
+| **[SETUP_CHECKLIST.md](./SETUP_CHECKLIST.md)** | Implementation checklist | Developers, DevOps |
 
 ### Issue & PR Templates
 

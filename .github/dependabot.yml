@@ -1,0 +1,96 @@
+version: 2
+updates:
+  # Rust dependencies
+  - package-ecosystem: "cargo"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "09:00"
+    open-pull-requests-limit: 10
+    reviewers:
+      - "open-hims/maintainers"
+    labels:
+      - "dependencies"
+      - "rust"
+    commit-message:
+      prefix: "chore(deps)"
+      include: "scope"
+    # Group minor and patch updates
+    groups:
+      rust-minor-and-patch:
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+          - "patch"
+    # Security updates get separate PRs
+    allow:
+      - dependency-type: "direct"
+      - dependency-type: "indirect"
+    ignore:
+      # Add packages to ignore if needed
+      # - dependency-name: "some-package"
+      #   versions: ["1.x"]
+
+  # Node.js / TypeScript dependencies (UI)
+  - package-ecosystem: "npm"
+    directory: "/rustcare-ui"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "09:00"
+    open-pull-requests-limit: 10
+    reviewers:
+      - "open-hims/maintainers"
+    labels:
+      - "dependencies"
+      - "typescript"
+    commit-message:
+      prefix: "chore(deps)"
+      include: "scope"
+    # Group minor and patch updates
+    groups:
+      npm-minor-and-patch:
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+          - "patch"
+    # Always update security patches
+    allow:
+      - dependency-type: "direct"
+      - dependency-type: "indirect"
+    versioning-strategy: increase
+
+  # Docker dependencies
+  - package-ecosystem: "docker"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "tuesday"
+      time: "09:00"
+    open-pull-requests-limit: 5
+    reviewers:
+      - "open-hims/maintainers"
+    labels:
+      - "dependencies"
+      - "docker"
+    commit-message:
+      prefix: "chore(deps)"
+
+  # GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "wednesday"
+      time: "09:00"
+    open-pull-requests-limit: 5
+    reviewers:
+      - "open-hims/maintainers"
+    labels:
+      - "dependencies"
+      - "ci"
+    commit-message:
+      prefix: "chore(deps)"

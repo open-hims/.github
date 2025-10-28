@@ -1,0 +1,13 @@
+# These are supported funding model platforms
+
+github: [open-hims]
+patreon: # Add your Patreon username
+open_collective: # Add your Open Collective username
+ko_fi: # Add your Ko-fi username
+tidelift: # Add Tidelift package name
+community_bridge: # Add Community Bridge project name
+liberapay: # Add Liberapay username
+issuehunt: # Add IssueHunt username
+otechie: # Add Otechie username
+lfx_crowdfunding: # Add LFX Crowdfunding project name
+custom: ['https://pages.openhims.health/sponsor', 'https://donate.openhims.health']
