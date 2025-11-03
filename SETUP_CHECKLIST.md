@@ -148,7 +148,7 @@ Complete these steps to activate funding and security infrastructure.
 - [ ] **Create Project on OpenSSF**
   1. Go to: https://bestpractices.coreinfrastructure.org/
   2. Click "Add Project"
-  3. Enter GitHub URL: https://github.com/open-hims/rustcare-engine
+  3. Enter GitHub URL: https://github.com/Open-Hims-HQ/rustcare-engine
   4. Begin questionnaire
 
 - [ ] **Complete Badge Requirements**
@@ -341,14 +341,14 @@ licensing fees ($50k-500k/year)
 🔒 Security: Rust-based, HIPAA-compliant, zero-trust architecture
 
 Ways to support:
-💰 GitHub Sponsors: https://github.com/sponsors/open-hims
-💻 Contribute code: https://github.com/open-hims/rustcare-engine
+💰 GitHub Sponsors: https://github.com/sponsors/Open-Hims-HQ
+💻 Contribute code: https://github.com/Open-Hims-HQ/rustcare-engine
 📢 Spread the word: Share this message!
 
 Every dollar helps us save the healthcare industry billions while improving 
 patient care worldwide.
 
-Learn more: https://github.com/open-hims/rustcare-engine/blob/main/docs/ONE_PAGER.md
+Learn more: https://github.com/Open-Hims-HQ/rustcare-engine/blob/main/docs/ONE_PAGER.md
 
 Thank you! 🙏
 The RustCare Team

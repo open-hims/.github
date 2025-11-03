@@ -230,7 +230,7 @@ RustCare represents a **next-generation healthcare information management system
 docker run -d \
   -p 8080:8080 \
   -e DATABASE_URL=postgres://user:pass@db:5432/rustcare \
-  ghcr.io/open-hims/rustcare:latest
+  ghcr.io/Open-Hims-HQ/rustcare:latest
 ```
 
 ### Edge Deploy (Raspberry Pi)
@@ -252,7 +252,7 @@ helm install rustcare rustcare/rustcare \
 ## 📚 Additional Resources
 
 - **Documentation**: https://docs.rustcare.dev
-- **GitHub**: https://github.com/open-hims
+- **GitHub**: https://github.com/Open-Hims-HQ
 - **Community**: https://discord.gg/rustcare
 - **FHIR Guide**: https://fhir.rustcare.dev
 - **Security Policy**: [SECURITY.md](.github/SECURITY.md)
@@ -264,9 +264,9 @@ helm install rustcare rustcare/rustcare \
 
 RustCare is proudly **community-driven** and **open-source**. We welcome contributions from developers, healthcare professionals, and organizations worldwide.
 
-- **Report Issues**: [GitHub Issues](https://github.com/open-hims/rustcare-engine/issues)
+- **Report Issues**: [GitHub Issues](https://github.com/Open-Hims-HQ/rustcare-engine/issues)
 - **Join Development**: [CONTRIBUTING.md](CONTRIBUTING.md)
-- **Sponsor**: [GitHub Sponsors](https://github.com/sponsors/open-hims)
+- **Sponsor**: [GitHub Sponsors](https://github.com/sponsors/Open-Hims-HQ)
 - **Enterprise Support**: [COMMERCIAL-SUPPORT.md](COMMERCIAL-SUPPORT.md)
 
 ---

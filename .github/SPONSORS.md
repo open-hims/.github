@@ -160,7 +160,7 @@ We believe in full transparency:
 ## Sponsor Now
 
 ### GitHub Sponsors (Recommended)
-👉 [**Sponsor on GitHub**](https://github.com/sponsors/open-hims)
+👉 [**Sponsor on GitHub**](https://github.com/sponsors/Open-Hims-HQ)
 
 ### Custom Sponsorship
 For custom arrangements, partnerships, or enterprise sponsorship:
@@ -206,7 +206,7 @@ A: We're working on 501(c)(3) status. In the meantime, consult your tax advisor.
 </p>
 
 <p align="center">
-  <a href="https://github.com/sponsors/open-hims">
+  <a href="https://github.com/sponsors/Open-Hims-HQ">
     <img src="https://img.shields.io/badge/Sponsor-GitHub-ea4aaa?logo=github" alt="Sponsor on GitHub">
   </a>
 </p>

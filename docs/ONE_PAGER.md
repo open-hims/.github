@@ -140,7 +140,7 @@ Healthcare costs are skyrocketing. Proprietary EMR/EHR systems cost hospitals $5
 
 ```bash
 # Clone the repository
-git clone https://github.com/open-hims/rustcare-engine.git
+git clone https://github.com/Open-Hims-HQ/rustcare-engine.git
 cd rustcare-engine
 
 # Start with Docker Compose
@@ -158,7 +158,7 @@ docker-compose up -d
 curl -sSL https://get.docker.com | sh
 
 # Clone and start
-git clone https://github.com/open-hims/rustcare-engine.git
+git clone https://github.com/Open-Hims-HQ/rustcare-engine.git
 cd rustcare-engine
 docker-compose -f docker-compose.pi.yml up -d
 ```
@@ -251,12 +251,12 @@ terraform apply
 
 ### Free Support
 - 📖 **Documentation:** [docs.openhims.health](https://docs.openhims.health)
-- 💬 **GitHub Discussions:** [Community Forum](https://github.com/open-hims/rustcare-engine/discussions)
-- 🐛 **Issue Tracker:** [Report Bugs](https://github.com/open-hims/rustcare-engine/issues)
+- 💬 **GitHub Discussions:** [Community Forum](https://github.com/Open-Hims-HQ/rustcare-engine/discussions)
+- 🐛 **Issue Tracker:** [Report Bugs](https://github.com/Open-Hims-HQ/rustcare-engine/issues)
 - 📧 **Email:** support@pages.openhims.health
 
 ### Sponsorship & Enterprise Support
-- 💰 **GitHub Sponsors:** [Sponsor Us](https://github.com/sponsors/open-hims)
+- 💰 **GitHub Sponsors:** [Sponsor Us](https://github.com/sponsors/Open-Hims-HQ)
 - 🏢 **Enterprise Support:** sponsors@openhims.health
 - 🛡️ **Security Issues:** security@openhims.health
 
@@ -362,7 +362,7 @@ No strings attached. No copyleft. Build your business on RustCare.
 ### General Inquiries
 - 🌐 **Website:** [pages.openhims.health](https://pages.openhims.health)
 - 📧 **Email:** support@pages.openhims.health
-- 💬 **Discussions:** [GitHub Discussions](https://github.com/open-hims/rustcare-engine/discussions)
+- 💬 **Discussions:** [GitHub Discussions](https://github.com/Open-Hims-HQ/rustcare-engine/discussions)
 
 ### Business & Partnerships
 - 🏢 **Enterprise:** sponsors@openhims.health
@@ -380,10 +380,10 @@ No strings attached. No copyleft. Build your business on RustCare.
 </p>
 
 <p align="center">
-  <a href="https://github.com/open-hims/rustcare-engine">
-    <img src="https://img.shields.io/github/stars/open-hims/rustcare-engine?style=social" alt="GitHub Stars">
+  <a href="https://github.com/Open-Hims-HQ/rustcare-engine">
+    <img src="https://img.shields.io/github/stars/Open-Hims-HQ/rustcare-engine?style=social" alt="GitHub Stars">
   </a>
-  <a href="https://github.com/sponsors/open-hims">
+  <a href="https://github.com/sponsors/Open-Hims-HQ">
     <img src="https://img.shields.io/badge/Sponsor-GitHub-ea4aaa?logo=github" alt="Sponsor on GitHub">
   </a>
   <a href="https://twitter.com/openhims">

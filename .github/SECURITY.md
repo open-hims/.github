@@ -67,7 +67,7 @@ For sensitive disclosures, use our PGP key:
 ### Update Channels
 
 1. **Security Advisories**
-   - Published at: https://github.com/open-hims/rustcare-engine/security/advisories
+   - Published at: https://github.com/Open-Hims-HQ/rustcare-engine/security/advisories
    - Includes severity, impact, and mitigation steps
 
 2. **Security Releases**
@@ -78,7 +78,7 @@ For sensitive disclosures, use our PGP key:
 3. **Notifications**
    - GitHub Security Advisories (automatic)
    - Mailing list: security-announce@openhims.health (planned)
-   - RSS feed: https://github.com/open-hims/rustcare-engine/security/advisories.atom
+   - RSS feed: https://github.com/Open-Hims-HQ/rustcare-engine/security/advisories.atom
 
 ### Patch Distribution
 
@@ -100,7 +100,7 @@ git pull origin main
 cargo update
 
 # Review security advisories
-gh api /repos/open-hims/rustcare-engine/security-advisories
+gh api /repos/Open-Hims-HQ/rustcare-engine/security-advisories
 ```
 
 ### 2. Use Secrets Management
@@ -306,8 +306,8 @@ See our comprehensive security roadmap: [SECURITY_ROADMAP.md](.github/SECURITY_R
 ### General Support
 
 - **Email:** support@pages.openhims.health
-- **Discussions:** https://github.com/open-hims/rustcare-engine/discussions
-- **Issues:** https://github.com/open-hims/rustcare-engine/issues
+- **Discussions:** https://github.com/Open-Hims-HQ/rustcare-engine/discussions
+- **Issues:** https://github.com/Open-Hims-HQ/rustcare-engine/issues
 
 ---
 

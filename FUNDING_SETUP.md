@@ -90,7 +90,7 @@ This document outlines the funding infrastructure we've set up for RustCare.
 
 2. **Enable GitHub Advanced Security**
    ```bash
-   # Go to: https://github.com/open-hims/rustcare-engine/settings/security_analysis
+   # Go to: https://github.com/Open-Hims-HQ/rustcare-engine/settings/security_analysis
    # Enable:
    # - Dependency graph
    # - Dependabot alerts
@@ -454,7 +454,7 @@ Copy this to track progress:
 
 Questions about funding setup?
 - 📧 sponsors@openhims.health
-- 💬 [GitHub Discussions](https://github.com/open-hims/rustcare-engine/discussions)
+- 💬 [GitHub Discussions](https://github.com/Open-Hims-HQ/rustcare-engine/discussions)
 
 ---
 

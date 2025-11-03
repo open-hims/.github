@@ -332,7 +332,7 @@ This roadmap outlines our commitment to building and maintaining a secure health
    go install github.com/ossf/scorecard/v4/cmd/scorecard@latest
    
    # Run scorecard
-   scorecard --repo=github.com/open-hims/rustcare-engine
+   scorecard --repo=github.com/Open-Hims-HQ/rustcare-engine
    ```
 
 2. **Improve Scores**
